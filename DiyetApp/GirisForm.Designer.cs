@@ -107,9 +107,9 @@
             this.lblEmail.AutoSize = true;
             this.lblEmail.Location = new System.Drawing.Point(312, 106);
             this.lblEmail.Name = "lblEmail";
-            this.lblEmail.Size = new System.Drawing.Size(113, 21);
+            this.lblEmail.Size = new System.Drawing.Size(71, 21);
             this.lblEmail.TabIndex = 22;
-            this.lblEmail.Text = "E - Mail Adresi:";
+            this.lblEmail.Text = "DENEME";
             this.lblEmail.Visible = false;
             // 
             // btnUnuttum
