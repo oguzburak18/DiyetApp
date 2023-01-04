@@ -10,6 +10,10 @@ namespace DiyetApp.Besinler
     {
         public int Id { get; set; }
         public string Ad { get; set; }
+        public override string ToString()
+        {
+            return Ad;
+        }
         public List<CerezBaklagilGram> CerezBaklagilGramlar { get; set; }
         public List<CerezBaklagilPorsiyon> CerezBaklagilPorsiyonlar { get; set; }
         public List<DigerGram> DigerGramlar { get; set; }
