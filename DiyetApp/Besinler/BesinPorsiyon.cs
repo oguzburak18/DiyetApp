@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 
 namespace DiyetApp.Besinler
 {
-    public class DigerGram
+    public class BesinPorsiyon
     {
         public int Id { get; set; }
         public string Ad { get; set; }
-        public int Gram { get; set; }
+        public int Porsiyon { get; set; }
         public int Kalori { get; set; }
         [ForeignKey("Kategori")]
         public int KategoriId { get; set; }
